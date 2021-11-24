@@ -1,5 +1,7 @@
 from includes import display
 from includes import events
 
-display = display.DisplayManager()
-events = events.Events()
+if __name__ == '__main__':
+    display = display.DisplayManager()
+    display.mainMenu()
+    events = events.Events()
