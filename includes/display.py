@@ -12,7 +12,7 @@ class DisplayManager:
     def __init__(self):
         windowTitle = "4 In Line"
         pygame.font.init();
-        self.font = pygame.font.Font(os.path.join(os.path.dirname(os.path.abspath(__file__)), "../fonts/Quicksand-Regular.ttf"), 20);
+        self.font = pygame.font.Font(os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts/Quicksand-Regular.ttf"), 20);
 
         pygame.init();
         self.display = pygame.display.set_mode(size=(self.screen_width, self.screen_height));
